@@ -14,4 +14,4 @@ public class a2 {
             System.out.println();
         }
     }
-}*************************
+}
