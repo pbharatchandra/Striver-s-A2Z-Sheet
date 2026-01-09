@@ -12,3 +12,9 @@ public class a10 {
         }
     }
 }
+// ALPHA RAMP PATTERN
+// A
+// BB
+// CCC
+// DDDD
+// EEEEE
