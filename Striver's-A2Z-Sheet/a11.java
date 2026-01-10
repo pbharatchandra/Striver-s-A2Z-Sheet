@@ -5,7 +5,7 @@ public class a11 {
 
         for (int i = 0; i < n; i++) {
             // SPACE
-            for (int j = 0; j <= n - i - 1; j++) {
+            for (int j = 0; j < n - i - 1; j++) {
                 System.out.print("-");
             }
             // CHARCTERS
@@ -19,9 +19,9 @@ public class a11 {
                     ch--;
             }
             // SPACE (OPTIONAL)
-            // for (int j = 0; j <= n - i - 1; j++) {
-            // System.out.print("-");
-            // }
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print("-");
+            }
 
             System.out.println();
 
@@ -29,14 +29,14 @@ public class a11 {
     }
 }
 
-// -----A
-// ----ABA
-// ---ABCBA
-// --ABCDCBA
-// -ABCDEDCBA
+// ----A
+// ---ABA
+// --ABCBA
+// -ABCDCBA
+// ABCDEDCBA
 // OR (OPTIONAL ADDING SPACE AFTER BUT WOULD INCREASE TIME AND SPACE COMPLEXITY)
-// -----A-----
-// ----ABA----
-// ---ABCBA---
-// --ABCDCBA--
-// -ABCDEDCBA-
+// ----A----
+// ---ABA---
+// --ABCBA--
+// -ABCDCBA-
+// ABCDEDCBA
