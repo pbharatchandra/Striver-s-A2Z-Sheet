@@ -1,3 +1,4 @@
+// HOLLOW RECTANGLE PATTERN
 public class a15 {
     public static void main(String[] args) {
         int n = 5;
@@ -15,7 +16,7 @@ public class a15 {
         }
     }
 }
-// HOLLOW RECTANGLE PATTER
+// HOLLOW RECTANGLE PATTERN
 // *****
 // *---*
 // *---*
